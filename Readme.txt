@@ -1,19 +1,2 @@
-				Perceptron Learning For Points in 3D
-To teach our program to linearly separate points we needed to generate all the points in
-3D space from 0,0,0 to 10,10,10. This generated about 1300 points and from here we selected the
-middle of the list of generated points as the splitting point from separating the points. In our case
-the mid point was 5,5,5. Everything that was to the left of this point would belong to class A and
-everything to right would belong to class B. From here we then selected 15 points that would be
-categorized into class A and B and applied the perceptron learning technique on those selected
-points. For our initial weights we debated whether to have a random value from 0-1 or to have
-the weights as 0 initially. In the end our initial weights were 0 to simulate that our program knew
-nothing about the system.
-For our initial test of a learning rate of 0.001 our program was able to learn how to
-separate the selected points in one epoch. For our test of a learning rate of 0.1 the same scenario
-had occurred. For our test of a learning rate of 1 the same result occurred of being able to
-separate the points in one epoch. The speed in which it took for our program to perform this task
-was roughly equivalent for the previous 3 learning rates. However, we noticed this was not the
-case when we had a learning rate of 10. From our experiment it took about 25 epochs for our
-program to separate the points and taking a bit more time. This is expected since a high learning
-rate would cause rattling. Since we did not have a GUI to demonstrate our results, we have
-included the results of each learning rate with this report for your analysis.
+		Perceptron Learning For Points in 3D
+To teach our program to linearly separate points we needed to generate all the points in 3D space from 0,0,0 to 10,10,10. This generated about 1300 points and from here we selected the middle of the list of generated points as the splitting point from separating the points. In our case the mid point was 5,5,5. Everything that was to the left of this point would belong to class A and everything to right would belong to class B. From here we then selected 15 points that would be categorized into class A and B and applied the perceptron learning technique on those selected points. For our initial weights we debated whether to have a random value from 0-1 or to have the weights as 0 initially. In the end our initial weights were 0 to simulate that our program knew nothing about the system. For our initial test of a learning rate of 0.001 our program was able to learn how to separate the selected points in one epoch. For our test of a learning rate of 0.1 the same scenario had occurred. For our test of a learning rate of 1 the same result occurred of being able to separate the points in one epoch. The speed in which it took for our program to perform this task was roughly equivalent for the previous 3 learning rates. However, we noticed this was not the case when we had a learning rate of 10. From our experiment it took about 25 epochs for our program to separate the points and taking a bit more time. This is expected since a high learning rate would cause rattling. Since we did not have a GUI to demonstrate our results, we have included the results of each learning rate with this report for your analysis.
